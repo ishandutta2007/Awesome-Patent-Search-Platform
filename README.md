@@ -24,74 +24,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-* **[PatSnap](https://www.patsnap.com/)**
-  Global patent intelligence and innovation platform providing patent search, technology landscaping, competitive intelligence, analytics, and AI-assisted research workflows.
-
-* **[Questel Orbit Intelligence](https://www.questel.com/)**
-  Enterprise patent search and IP intelligence platform offering global patent databases, sophisticated search, patent family analysis, competitive monitoring, and patent analytics.
-
-* **[Google Patents](https://patents.google.com/)**
-  Widely used public patent search platform offering full-text patent search, patent-family information, citations, classifications, inventor and assignee discovery, and machine-readable patent data access.
-
-* **[Google Patents Public Datasets](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/public_patents)**
-  Large-scale patent datasets available through BigQuery for SQL-based patent analysis, patent landscaping, claim analysis, and custom research workflows. The associated open-source repository provides examples for patent landscaping, claim extraction, and claim-breadth modeling.
-
-* **[The Lens](https://www.lens.org/)**
-  Patent and scholarly knowledge platform supporting structured patent search, classification search, filtering, collections, alerts, visualizations, and links between patents and scholarly literature.
-
-* **[IFI CLAIMS Patent Services](https://www.ificlaims.com/)**
-  Patent data and intellectual-property intelligence provider offering structured patent information, patent search, analytics, and enterprise data products.
-
-* **[Gridlogics PatSeer](https://patseer.com/)**
-  Patent research and analytics platform focused on prior-art search, patent landscaping, competitive intelligence, portfolio analysis, and technology monitoring.
-
-* **[Derwent Innovation](https://clarivate.com/derwent/)**
-  Enterprise patent intelligence platform from Clarivate combining global patent content, enhanced indexing, patent search, citation analysis, and IP analytics.
-
-* **[InnovationQ Plus](https://www.ip.com/innovationq-plus/)**
-  AI-assisted patent and prior-art search platform designed to help researchers and IP professionals discover relevant technical documents and intellectual-property information.
-
-* **[IP.com](https://www.ip.com/)**
-  Intellectual-property intelligence platform offering prior-art search, patent search, technical disclosure management, innovation intelligence, and IP research services.
-
-* **[Ambercite](https://www.ambercite.com/)**
-  Patent citation-search and prior-art discovery platform focused on citation networks, related-document discovery, and identifying relevant patent literature.
-
-* **[PatSeer Pro](https://patseer.com/)**
-  Advanced patent intelligence environment supporting complex patent queries, analytics, technology landscapes, portfolio evaluation, and competitive monitoring.
-
-* **[PatentSight](https://www.patentsight.com/)**
-  Patent analytics and portfolio intelligence platform emphasizing patent value, competitive benchmarking, technology landscapes, and strategic portfolio analysis.
-
-* **[PatBase](https://www.patbase.com/)**
-  Global patent database and search platform providing professional patent searching, family information, monitoring, alerts, and patent analytics.
-
-* **[STN](https://www.cas.org/solutions/stn)**
-  Professional scientific and patent information platform supporting complex searches across patents, scientific literature, chemistry, and technical information.
-
-* **[PatentInspiration](https://www.patentinspiration.com/)**
-  Patent search and innovation intelligence platform focused on visual patent exploration, semantic discovery, technology landscapes, and competitive intelligence.
-
-* **[IPRally](https://www.iprally.com/)**
-  AI-powered patent intelligence platform focused on prior-art discovery and technology intelligence using machine learning and semantic analysis.
-
-* **[PatentBuddy](https://www.patentbuddy.com/)**
-  Patent search and patent portfolio intelligence service providing access to patent information, prosecution data, and patent-related analytics.
-
-* **[FreePatentsOnline](https://www.freepatentsonline.com/)**
-  Public patent search service providing searchable patent documents and patent-related information across major patent jurisdictions.
-
-* **[Espacenet](https://worldwide.espacenet.com/)**
-  European Patent Office patent search service providing access to extensive worldwide patent documentation, bibliographic data, legal information, and patent families.
-
-* **[WIPO PATENTSCOPE](https://patentscope.wipo.int/)**
-  Global patent information platform from WIPO supporting searches across PCT applications and participating national and regional patent collections.
-
-* **[USPTO Patent Center](https://patentcenter.uspto.gov/)**
-  Official United States patent information system for accessing patent applications, prosecution information, and related patent records.
-
-* **[Patent Field](https://patentfield.com/)**
-  Patent search and analysis service focused on searchable patent records and technology intelligence.
+| Platform | Description | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[PatSnap](https://www.patsnap.com/)** | Global patent intelligence and innovation platform providing patent search, technology landscaping, competitive intelligence, analytics, and AI-assisted research workflows. | Starts at ~$100/month (Eureka Engineering Pro / Open Platform Pro); Patent Searching Pro at ~$400/month | Free basic tier (Eureka Basic & Open Platform Starter with 10,000 API credits, ~10 searches/month); 7-day free trial on select modules |
+| **[Questel Orbit Intelligence](https://www.questel.com/)** | Enterprise patent search and IP intelligence platform offering global patent databases, sophisticated search, patent family analysis, competitive monitoring, and patent analytics. | Starts at ~$3,000 – $5,000/user/year (entry commercial single-seat quote) | 15-day free trial upon request and registration; no permanent free tier |
+| **[Google Patents](https://patents.google.com/)** | Widely used public patent search platform offering full-text patent search, patent-family information, citations, classifications, inventor and assignee discovery, and machine-readable patent data access. | Free ($0) | Free forever; unrestricted global patent search and document downloads (subject to standard automated request limits) |
+| **[Google Patents Public Datasets](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/public_patents)** | Large-scale patent datasets available through BigQuery for SQL-based patent analysis, patent landscaping, claim analysis, and custom research workflows. | Starts at $6.25 per TB (BigQuery on-demand analysis beyond monthly free allowance) | Free forever for first 1 TB/month of query data processing under Google Cloud Free Tier |
+| **[The Lens](https://www.lens.org/)** | Patent and scholarly knowledge platform supporting structured patent search, classification search, filtering, collections, alerts, visualizations, and links between patents and scholarly literature. | Free for non-commercial/academic use; Commercial licenses start at $1,000/year (~$83.33/month) | Free forever for non-commercial and individual research (unlimited searching, up to 10,000 items in saved collections, alerts); 14-day free trial for patent API |
+| **[IFI CLAIMS Patent Services](https://www.ificlaims.com/)** | Patent data and intellectual-property intelligence provider offering structured patent information, patent search, analytics, and enterprise data products. | Starts at ~$10,000/year for direct API subscriptions; BigQuery access at standard $6.25/TB | Free trial access provided for API testing upon request; free public bibliographic dataset table on Google BigQuery (up to 1 TB/month free queries) |
+| **[Gridlogics PatSeer](https://patseer.com/)** | Patent research and analytics platform focused on prior-art search, patent landscaping, competitive intelligence, portfolio analysis, and technology monitoring. | Starts at ~$900/user/quarter (~$300/user/month or ~$3,600/year for Explorer/Premier base tier) | 14-day free trial (no credit card required); no permanent free tier |
+| **[Derwent Innovation](https://clarivate.com/derwent/)** | Enterprise patent intelligence platform from Clarivate combining global patent content, enhanced indexing, patent search, citation analysis, and IP analytics. | Starts at ~$15,000/year for entry enterprise licenses (scales with DWPI indexing and analytics modules) | Free trial / pilot demo available upon request (typically 7–14 days evaluation); no permanent free tier |
+| **[InnovationQ Plus](https://www.ip.com/innovationq-plus/)** | AI-assisted patent and prior-art search platform designed to help researchers and IP professionals discover relevant technical documents and intellectual-property information. | Starts at $49/user/month (Basic plan) or $199/user/month (Premium plan / Day Pass) | 2-day free trial with platform feature access upon registration; no permanent free tier |
+| **[IP.com](https://www.ip.com/)** | Intellectual-property intelligence platform offering prior-art search, patent search, technical disclosure management, innovation intelligence, and IP research services. | Starts at $49/user/month (InnovationQ Plus Basic); Prior Art Database defensive publishing from $195/disclosure | 2-day free trial for search platform; free public searching of the IP.com Prior Art Database |
+| **[Ambercite](https://www.ambercite.com/)** | Patent citation-search and prior-art discovery platform focused on citation networks, related-document discovery, and identifying relevant patent literature. | Starts at ~$1,500 – $2,500/year for small firm / consultant licenses | 21-day or 20-search free trial (limited to top 25 results with 5 obscured, max 3 input patents, no Excel exports); no permanent free tier |
+| **[PatSeer Pro](https://patseer.com/)** | Advanced patent intelligence environment supporting complex patent queries, analytics, technology landscapes, portfolio evaluation, and competitive monitoring. | Starts at ~$1,200/user/quarter (~$400/user/month for ProX edition with advanced analytics) | 14-day free trial (no credit card required); no permanent free tier |
+| **[PatentSight](https://www.patentsight.com/)** | Patent analytics and portfolio intelligence platform emphasizing patent value, competitive benchmarking, technology landscapes, and strategic portfolio analysis. | Starts at ~$10,000 – $20,000/year for corporate patent analytics licenses (LexisNexis IP suite) | Free guided portfolio pilot demo upon request; free PatentAdvisor browser extension for basic examiner statistics; no permanent free SaaS plan |
+| **[PatBase](https://www.patbase.com/)** | Global patent database and search platform providing professional patent searching, family information, monitoring, alerts, and patent analytics. | Starts at ~$4,000 – $6,000/user/year (approx. £3,000–£4,500/year for single seat) | 14-day free trial for PatBase (7-day free trial for PatBase Express); no permanent free tier |
+| **[STN](https://www.cas.org/solutions/stn)** | Professional scientific and patent information platform supporting complex searches across patents, scientific literature, chemistry, and technical information. | Connect time starting at ~$100 – $300/connect hour plus file search/display fees ($2–$10+ per record) | Free assisted demo via CAS; free command syntax checks (`EXPAND`) and sample training database files; no permanent free tier |
+| **[PatentInspiration](https://www.patentinspiration.com/)** | Patent search and innovation intelligence platform focused on visual patent exploration, semantic discovery, technology landscapes, and competitive intelligence. | Starts at €99/month (Basic plan; Team at €199/month, Enterprise at €499/month) | Free forever tier (basic searches and visualization, watermarked images, limited report saving); 7-day full-featured free trial |
+| **[IPRally](https://www.iprally.com/)** | AI-powered patent intelligence platform focused on prior-art discovery and technology intelligence using machine learning and semantic analysis. | Starts at €3,000/year (~€250/month) for individual plan; team plans scale to $24,000+/year | 3-day free trial with AI graph search capabilities; no permanent free tier |
+| **[PatentBuddy](https://www.patentbuddy.com/)** | Patent search and patent portfolio intelligence service providing access to patent information, prosecution data, and patent-related analytics. | Starts at $29.95/month for Pro/Premium analytics tier (basic portal is free) | Free forever tier for standard US patent application searches, inventor profiles, and assignee summaries |
+| **[FreePatentsOnline](https://www.freepatentsonline.com/)** | Public patent search service providing searchable patent documents and patent-related information across major patent jurisdictions. | Free ($0 for web search engine); optional SearchAlerts/bulk services start at ~$15/month | Free forever with unlimited patent search, full-text viewing, and single PDF downloads across US, EP, JP, and PCT documents |
+| **[Espacenet](https://worldwide.espacenet.com/)** | European Patent Office patent search service providing access to extensive worldwide patent documentation, bibliographic data, legal information, and patent families. | Free (€0) | Free forever; unlimited global search across 140M+ patent documents (up to 500 results per export download; OPS API has 4 GB/week free limit) |
+| **[WIPO PATENTSCOPE](https://patentscope.wipo.int/)** | Global patent information platform from WIPO supporting searches across PCT applications and participating national and regional patent collections. | Free ($0) | Free forever; unlimited search across 115M+ patent records, up to 10,000 records exportable per search |
+| **[USPTO Patent Center](https://patentcenter.uspto.gov/)** | Official United States patent information system for accessing patent applications, prosecution information, and related patent records. | Free ($0) | Free forever; unrestricted public access to US patent applications, patent grants, and public prosecution history (file wrapper) documents |
+| **[Patent Field](https://patentfield.com/)** | Patent search and analysis service focused on searchable patent records and technology intelligence. | Starts at ¥10,000/month (~$70/month; ¥100,000/year on annual plan) | Free forever tier limited to 20 searches per month with basic AI search and classification features |
 
 ## Open-Source GitHub Projects
 
