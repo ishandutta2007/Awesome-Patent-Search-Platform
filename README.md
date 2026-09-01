@@ -1,224 +1,288 @@
-# Awesome-Patent-Search-Platform
+<div align="center">
 
-## Top Patent Search Platform Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Patent Search Platform Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Patent Search, Prior-Art Discovery, Patent Landscaping, Intellectual Property Intelligence & Patent Data Analysis*
-**Last updated: September 2026**
+# ⚡ Awesome Patent Search Platform
 
-This repository tracks notable **SaaS platforms**, commercial patent intelligence products, public patent search services, and **open-source projects** for **Patent Search Platforms**. These tools help researchers, patent professionals, IP teams, inventors, R&D organizations, universities, and legal teams search patent literature, discover prior art, analyze patent families, monitor competitors, perform patent landscaping, and explore global intellectual-property datasets.
+### 🌐 The Definitive Ecosystem of SaaS Intelligence Tools, Commercial IP Platforms & Open-Source Patent Infrastructure
 
-**Examples** include PatSnap, Questel Orbit, Google Patents Public Datasets, Lens.org, IFI CLAIMS, Gridlogics PatSeer, Derwent Innovation, InnovationQ Plus, IP.com, and Ambercite (the category leaders).
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Patent-Search-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Patent-Search-Platform?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Patent-Search-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Patent-Search-Platform?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Patent-Search-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Patent-Search-Platform?style=flat-square&color=orange" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Patent-Search-Platform/pulls"><img src="https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-Patent-Search-Platform?style=flat-square&color=brightgreen" alt="PRs"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Patent-Search-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Open-source emphasis**: This section is heavily expanded with open-source patent research platforms, patent-data pipelines, EPO OPS clients, USPTO data tooling, patent analytics repositories, semantic-search frameworks, natural-language-processing libraries, knowledge-graph tools, and self-hosted search infrastructure. While comparatively few complete commercial-grade patent search interfaces are fully open source, the underlying ecosystem for building custom patent search and analysis systems is extensive. Projects such as PatZilla, PQAI, Google Patents Public Data examples, EPO OPS clients, PatentsView pipelines, Elasticsearch/OpenSearch, Apache Solr, and modern embedding frameworks can be combined to build powerful self-hosted patent intelligence platforms. PatZilla, for example, provides a modular patent information research platform and data integration toolkit, while Google’s public-data repository demonstrates patent landscaping, claim extraction, and claim-breadth analysis workflows.
+*Curated list focused on Patent Search, Prior-Art Discovery, Patent Landscaping, Intellectual Property (IP) Intelligence, Patent Analytics, Patent Law NLP, Semantic Search, and Patent Data Pipelines.*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+**📅 Last updated: September 2026**
 
-## Table of Contents
-
-* [SaaS/Hosted Platforms](#saas-hosted-platforms)
-* [Open-Source GitHub Projects](#open-source-github-projects)
-* [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-* [How to Contribute](#how-to-contribute)
-* [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Platform | Description | Pricing | Free Tier / Trial Limits |
-| :--- | :--- | :--- | :--- |
-| **[PatSnap](https://www.patsnap.com/)** | Global patent intelligence and innovation platform providing patent search, technology landscaping, competitive intelligence, analytics, and AI-assisted research workflows. | Starts at ~$100/month (Eureka Engineering Pro / Open Platform Pro); Patent Searching Pro at ~$400/month | Free basic tier (Eureka Basic & Open Platform Starter with 10,000 API credits, ~10 searches/month); 7-day free trial on select modules |
-| **[Questel Orbit Intelligence](https://www.questel.com/)** | Enterprise patent search and IP intelligence platform offering global patent databases, sophisticated search, patent family analysis, competitive monitoring, and patent analytics. | Starts at ~$3,000 – $5,000/user/year (entry commercial single-seat quote) | 15-day free trial upon request and registration; no permanent free tier |
-| **[Google Patents](https://patents.google.com/)** | Widely used public patent search platform offering full-text patent search, patent-family information, citations, classifications, inventor and assignee discovery, and machine-readable patent data access. | Free ($0) | Free forever; unrestricted global patent search and document downloads (subject to standard automated request limits) |
-| **[Google Patents Public Datasets](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/public_patents)** | Large-scale patent datasets available through BigQuery for SQL-based patent analysis, patent landscaping, claim analysis, and custom research workflows. | Starts at $6.25 per TB (BigQuery on-demand analysis beyond monthly free allowance) | Free forever for first 1 TB/month of query data processing under Google Cloud Free Tier |
-| **[The Lens](https://www.lens.org/)** | Patent and scholarly knowledge platform supporting structured patent search, classification search, filtering, collections, alerts, visualizations, and links between patents and scholarly literature. | Free for non-commercial/academic use; Commercial licenses start at $1,000/year (~$83.33/month) | Free forever for non-commercial and individual research (unlimited searching, up to 10,000 items in saved collections, alerts); 14-day free trial for patent API |
-| **[IFI CLAIMS Patent Services](https://www.ificlaims.com/)** | Patent data and intellectual-property intelligence provider offering structured patent information, patent search, analytics, and enterprise data products. | Starts at ~$10,000/year for direct API subscriptions; BigQuery access at standard $6.25/TB | Free trial access provided for API testing upon request; free public bibliographic dataset table on Google BigQuery (up to 1 TB/month free queries) |
-| **[Gridlogics PatSeer](https://patseer.com/)** | Patent research and analytics platform focused on prior-art search, patent landscaping, competitive intelligence, portfolio analysis, and technology monitoring. | Starts at ~$900/user/quarter (~$300/user/month or ~$3,600/year for Explorer/Premier base tier) | 14-day free trial (no credit card required); no permanent free tier |
-| **[Derwent Innovation](https://clarivate.com/derwent/)** | Enterprise patent intelligence platform from Clarivate combining global patent content, enhanced indexing, patent search, citation analysis, and IP analytics. | Starts at ~$15,000/year for entry enterprise licenses (scales with DWPI indexing and analytics modules) | Free trial / pilot demo available upon request (typically 7–14 days evaluation); no permanent free tier |
-| **[InnovationQ Plus](https://www.ip.com/innovationq-plus/)** | AI-assisted patent and prior-art search platform designed to help researchers and IP professionals discover relevant technical documents and intellectual-property information. | Starts at $49/user/month (Basic plan) or $199/user/month (Premium plan / Day Pass) | 2-day free trial with platform feature access upon registration; no permanent free tier |
-| **[IP.com](https://www.ip.com/)** | Intellectual-property intelligence platform offering prior-art search, patent search, technical disclosure management, innovation intelligence, and IP research services. | Starts at $49/user/month (InnovationQ Plus Basic); Prior Art Database defensive publishing from $195/disclosure | 2-day free trial for search platform; free public searching of the IP.com Prior Art Database |
-| **[Ambercite](https://www.ambercite.com/)** | Patent citation-search and prior-art discovery platform focused on citation networks, related-document discovery, and identifying relevant patent literature. | Starts at ~$1,500 – $2,500/year for small firm / consultant licenses | 21-day or 20-search free trial (limited to top 25 results with 5 obscured, max 3 input patents, no Excel exports); no permanent free tier |
-| **[PatSeer Pro](https://patseer.com/)** | Advanced patent intelligence environment supporting complex patent queries, analytics, technology landscapes, portfolio evaluation, and competitive monitoring. | Starts at ~$1,200/user/quarter (~$400/user/month for ProX edition with advanced analytics) | 14-day free trial (no credit card required); no permanent free tier |
-| **[PatentSight](https://www.patentsight.com/)** | Patent analytics and portfolio intelligence platform emphasizing patent value, competitive benchmarking, technology landscapes, and strategic portfolio analysis. | Starts at ~$10,000 – $20,000/year for corporate patent analytics licenses (LexisNexis IP suite) | Free guided portfolio pilot demo upon request; free PatentAdvisor browser extension for basic examiner statistics; no permanent free SaaS plan |
-| **[PatBase](https://www.patbase.com/)** | Global patent database and search platform providing professional patent searching, family information, monitoring, alerts, and patent analytics. | Starts at ~$4,000 – $6,000/user/year (approx. £3,000–£4,500/year for single seat) | 14-day free trial for PatBase (7-day free trial for PatBase Express); no permanent free tier |
-| **[STN](https://www.cas.org/solutions/stn)** | Professional scientific and patent information platform supporting complex searches across patents, scientific literature, chemistry, and technical information. | Connect time starting at ~$100 – $300/connect hour plus file search/display fees ($2–$10+ per record) | Free assisted demo via CAS; free command syntax checks (`EXPAND`) and sample training database files; no permanent free tier |
-| **[PatentInspiration](https://www.patentinspiration.com/)** | Patent search and innovation intelligence platform focused on visual patent exploration, semantic discovery, technology landscapes, and competitive intelligence. | Starts at €99/month (Basic plan; Team at €199/month, Enterprise at €499/month) | Free forever tier (basic searches and visualization, watermarked images, limited report saving); 7-day full-featured free trial |
-| **[IPRally](https://www.iprally.com/)** | AI-powered patent intelligence platform focused on prior-art discovery and technology intelligence using machine learning and semantic analysis. | Starts at €3,000/year (~€250/month) for individual plan; team plans scale to $24,000+/year | 3-day free trial with AI graph search capabilities; no permanent free tier |
-| **[PatentBuddy](https://www.patentbuddy.com/)** | Patent search and patent portfolio intelligence service providing access to patent information, prosecution data, and patent-related analytics. | Starts at $29.95/month for Pro/Premium analytics tier (basic portal is free) | Free forever tier for standard US patent application searches, inventor profiles, and assignee summaries |
-| **[FreePatentsOnline](https://www.freepatentsonline.com/)** | Public patent search service providing searchable patent documents and patent-related information across major patent jurisdictions. | Free ($0 for web search engine); optional SearchAlerts/bulk services start at ~$15/month | Free forever with unlimited patent search, full-text viewing, and single PDF downloads across US, EP, JP, and PCT documents |
-| **[Espacenet](https://worldwide.espacenet.com/)** | European Patent Office patent search service providing access to extensive worldwide patent documentation, bibliographic data, legal information, and patent families. | Free (€0) | Free forever; unlimited global search across 140M+ patent documents (up to 500 results per export download; OPS API has 4 GB/week free limit) |
-| **[WIPO PATENTSCOPE](https://patentscope.wipo.int/)** | Global patent information platform from WIPO supporting searches across PCT applications and participating national and regional patent collections. | Free ($0) | Free forever; unlimited search across 115M+ patent records, up to 10,000 records exportable per search |
-| **[USPTO Patent Center](https://patentcenter.uspto.gov/)** | Official United States patent information system for accessing patent applications, prosecution information, and related patent records. | Free ($0) | Free forever; unrestricted public access to US patent applications, patent grants, and public prosecution history (file wrapper) documents |
-| **[Patent Field](https://patentfield.com/)** | Patent search and analysis service focused on searchable patent records and technology intelligence. | Starts at ¥10,000/month (~$70/month; ¥100,000/year on annual plan) | Free forever tier limited to 20 searches per month with basic AI search and classification features |
-
-## Open-Source GitHub Projects
-
-* **[PatZilla](https://github.com/ip-tools/patzilla)**
-  Modular open-source patent information research platform and data integration toolkit with a modern user interface, command-line tooling, and connectors to multiple patent data sources, including EPO Open Patent Services. It can serve as a foundation for custom patent research systems.
-
-* **[PQAI – Patent Quality Artificial Intelligence](https://github.com/pqaidevteam)**
-  Open-source-oriented patent prior-art and semantic-search ecosystem focused on AI-assisted discovery of technically relevant patent documents. Suitable for building custom prior-art search and patent similarity workflows.
-
-* **[Google Patents Public Data](https://github.com/google/patents-public-data)**
-  Open-source examples and analysis workflows for the Google Patents Public Datasets, including automated patent landscaping, patent claim extraction, and machine-learning-based claim breadth analysis. The repository was archived in 2026 but remains a valuable reference implementation for patent analytics workflows.
-
-* **[EPO OPS Go Client](https://github.com/patent-dev/epo-ops)**
-  Open-source Go client for the European Patent Office Open Patent Services API supporting patent bibliographic data, claims, descriptions, abstracts, full-text retrieval, CQL search, patent-family retrieval, classifications, images, and legal-status data.
-
-* **[python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)**
-  Apache-licensed Python client library for accessing the European Patent Office Open Patent Services API, supporting bibliographic data, descriptions, claims, and other patent information retrieval workflows.
-
-* **[Node.js EPO OPS Client](https://github.com/sujith3g/epo-ops)**
-  Open-source JavaScript wrapper for the EPO Open Patent Services API, supporting publication retrieval and patent search workflows through Node.js applications.
-
-* **[OPS Patent Search MCP](https://github.com/navisbio/OPS-patent-search-mcp)**
-  Open-source Model Context Protocol server for searching and retrieving patent data through EPO Open Patent Services. Supports searches across title, abstract, applicants, inventors, IPC/CPC classifications, dates, citations, claims, descriptions, and patent details.
-
-* **[Google Patent CLI](https://github.com/sonesuke/google-patent-cli)**
-  Open-source command-line and AI-agent-oriented tool for searching and retrieving structured patent information from Google Patents, including titles, abstracts, filing dates, assignees, descriptions, claims, and images.
-
-* **[PatentsView to BigQuery](https://github.com/Innovation-Information-Initiative/bigquery_patentsview)**
-  Open-source ETL pipeline for downloading USPTO PatentsView datasets, converting them into Parquet, and loading structured patent metadata into Google BigQuery for custom analytics and patent search applications.
-
-* **[PatentsView](https://github.com/USPTO/PatentsView-API)**
-  USPTO open-data ecosystem providing structured patent data suitable for custom patent search, inventor analysis, assignee analysis, technology landscaping, and bibliometric research.
-
-* **[Lens API Documentation and Examples](https://github.com/lens-org/lens-api-doc)**
-  Open-source code examples and documentation for integrating patent search and patent data retrieval into applications using the Lens API. Examples are available for R, Python, Java, Node.js, and cURL-based workflows.
-
-* **[WIPO Analytics Manual](https://github.com/wipo-analytics/manual)**
-  Open-source educational and analytical resource for patent data processing, patent databases, patent indicators, and reproducible intellectual-property analytics workflows.
-
-* **[Awesome Patent Retrieval](https://github.com/mahesh-maan/awesome-patent-retrieval)**
-  Community-curated open-source resource listing patent search engines, patent retrieval tools, research papers, APIs, datasets, and patent information resources.
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**
-  Fully open-source distributed search and analytics engine that can be used as the core full-text search layer for self-hosted patent databases containing titles, abstracts, descriptions, claims, classifications, and metadata.
-
-* **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)**
-  Open-source visualization and dashboard layer for OpenSearch, useful for patent portfolio analytics, technology landscapes, classification analysis, and patent monitoring dashboards.
-
-* **[Elasticsearch](https://github.com/elastic/elasticsearch)**
-  Distributed search and analytics engine widely used for large-scale text indexing and retrieval. Earlier fully open-source versions and compatible forks remain useful foundations for custom patent search infrastructure.
-
-* **[Apache Solr](https://github.com/apache/solr)**
-  Mature open-source enterprise search platform built on Apache Lucene, suitable for indexing large patent collections and supporting faceted search, full-text search, filtering, highlighting, and classification queries.
-
-* **[Apache Lucene](https://github.com/apache/lucene)**
-  Foundational open-source full-text search library used to build custom patent search engines, supporting advanced indexing, scoring, query parsing, and text retrieval.
-
-* **[Meilisearch](https://github.com/meilisearch/meilisearch)**
-  Open-source search engine offering fast full-text search and developer-friendly APIs. Suitable for smaller self-hosted patent datasets and experimental patent search interfaces.
-
-* **[Typesense](https://github.com/typesense/typesense)**
-  Open-source typo-tolerant search engine that can be adapted for fast patent metadata search, assignee discovery, inventor search, and technology catalog interfaces.
-
-* **[Vespa](https://github.com/vespa-engine/vespa)**
-  Open-source big-data serving and AI platform supporting large-scale search, ranking, vector retrieval, and recommendation workflows. Suitable for advanced patent semantic-search systems.
-
-* **[Qdrant](https://github.com/qdrant/qdrant)**
-  Open-source vector database suitable for semantic patent search using embeddings generated from patent abstracts, claims, descriptions, or technology concepts.
-
-* **[Weaviate](https://github.com/weaviate/weaviate)**
-  Open-source vector database and semantic-search platform that can be used to build natural-language patent discovery and similarity-search systems.
-
-* **[Milvus](https://github.com/milvus-io/milvus)**
-  Open-source vector database designed for large-scale similarity search and AI applications, useful for indexing patent embeddings at large scale.
-
-* **[FAISS](https://github.com/facebookresearch/faiss)**
-  Open-source similarity-search library for dense vector embeddings. Commonly used to build high-performance patent similarity and semantic prior-art retrieval systems.
-
-* **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)**
-  Open-source framework for generating semantic embeddings from patent abstracts, claims, and technical descriptions for similarity search and prior-art discovery.
-
-* **[Hugging Face Transformers](https://github.com/huggingface/transformers)**
-  Major open-source machine-learning library containing transformer models that can be adapted or fine-tuned for patent classification, similarity search, prior-art retrieval, entity extraction, and patent summarization.
-
-* **[Haystack](https://github.com/deepset-ai/haystack)**
-  Open-source framework for building retrieval and question-answering pipelines. Can combine patent databases, vector search, keyword retrieval, reranking, and language models into AI-powered patent research assistants.
-
-* **[LangChain](https://github.com/langchain-ai/langchain)**
-  Open-source application framework for combining patent data sources, search engines, vector databases, APIs, and language models into patent research and analysis workflows.
-
-* **[LlamaIndex](https://github.com/run-llama/llama_index)**
-  Open-source data framework for retrieval-augmented applications. Useful for indexing patent claims, descriptions, patent families, and technical literature for conversational patent search.
-
-* **[spaCy](https://github.com/explosion/spaCy)**
-  Open-source natural-language-processing library that can support patent entity extraction, terminology analysis, technology classification, and information extraction.
-
-* **[GROBID](https://github.com/kermitt2/grobid)**
-  Open-source machine-learning library for extracting structured information from scientific and technical documents. Useful when building combined patent-and-scientific-literature research systems.
-
-* **[BERTopic](https://github.com/MaartenGr/BERTopic)**
-  Open-source topic-modeling framework that can help create patent technology landscapes by clustering patent abstracts and descriptions into thematic groups.
-
-* **[NetworkX](https://github.com/networkx/networkx)**
-  Open-source Python library for graph analysis, useful for patent citation networks, inventor networks, assignee relationships, technology diffusion, and patent-family graphs.
-
-* **[Neo4j Community Edition](https://github.com/neo4j/neo4j)**
-  Open-source graph database platform suitable for building patent knowledge graphs connecting patents, inventors, assignees, citations, classifications, and technology concepts.
-
-* **[Gephi](https://github.com/gephi/gephi)**
-  Open-source network visualization platform useful for exploring patent citation networks, inventor collaboration networks, and technology relationship graphs.
-
-* **[Apache Superset](https://github.com/apache/superset)**
-  Open-source analytics and business-intelligence platform that can visualize patent datasets stored in databases or warehouses.
-
-* **[Metabase](https://github.com/metabase/metabase)**
-  Open-source business-intelligence platform useful for building patent portfolio dashboards, technology landscapes, patent filing trends, and assignee analytics.
-
-* **[Jupyter](https://github.com/jupyter/jupyter)**
-  Open-source computational notebook ecosystem suitable for reproducible patent analysis, patent landscaping, data cleaning, visualization, and machine-learning experiments.
-
-### Additional Strong Open-Source Options
-
-* **Patent data acquisition**: EPO Open Patent Services clients, USPTO Open Data APIs, PatentsView datasets, Google Patents Public Datasets, and jurisdiction-specific open-data sources.
-
-* **Patent search engines**: Apache Solr, OpenSearch, Lucene, Meilisearch, Typesense, and Vespa for building self-hosted full-text patent search infrastructure.
-
-* **Semantic and AI search**: Sentence Transformers, Hugging Face Transformers, FAISS, Qdrant, Milvus, Weaviate, Haystack, LangChain, and LlamaIndex.
-
-* **Patent NLP and information extraction**: spaCy, Transformers, BERTopic, KeyBERT, scikit-learn, and custom domain-specific language models.
-
-* **Patent landscaping**: Python, pandas, scikit-learn, BERTopic, NetworkX, Jupyter, and Apache Superset can be combined to analyze technology clusters and patent trends.
-
-* **Citation and knowledge graphs**: Neo4j Community Edition, NetworkX, Gephi, and graph-processing frameworks for patent citations, inventor relationships, and assignee networks.
-
-* **Patent data warehouses**: PostgreSQL, ClickHouse, DuckDB, BigQuery-compatible pipelines, Apache Spark, and Parquet-based data lakes.
-
-* **Visualization**: Apache Superset, Metabase, Grafana, Plotly, matplotlib, and Gephi for technology landscapes and patent analytics.
-
-* **AI-assisted prior-art research**: Combine BM25 keyword search with vector search, cross-encoder reranking, classification filtering, patent-family analysis, and retrieval-augmented language models.
-
-* **Patent monitoring**: Open-source schedulers such as Apache Airflow, Prefect, Dagster, and cron-based pipelines can periodically query patent APIs and generate alerts.
-
-* **Custom patent interfaces**: React, Next.js, Vue, Django, FastAPI, and Node.js can be combined with OpenSearch or Solr to create specialized patent search portals.
-
-* Many community projects exist for **patent scraping, patent classification, claim analysis, citation analysis, technology clustering, prior-art retrieval, patent embeddings, and IP knowledge graphs**.
-
-**Frameworks for building custom systems**: A powerful self-hosted patent search stack can combine **PatZilla or EPO OPS clients** for patent-data acquisition, **PostgreSQL or object storage** for structured data, **OpenSearch or Apache Solr** for keyword search, **Qdrant, Milvus, or FAISS** for semantic similarity search, **Sentence Transformers or Hugging Face models** for patent embeddings, and **Neo4j or NetworkX** for citation and inventor graphs. Add **Apache Superset or Metabase** for patent analytics dashboards and **Haystack, LangChain, or LlamaIndex** for AI-assisted patent research.
-
-For organizations needing global patent search, a practical architecture is to combine official or open-access sources with local indexing rather than relying exclusively on web scraping. EPO OPS clients provide programmatic access to bibliographic records, full text, patent families, classifications, images, and legal-status information, while public datasets can support large-scale patent landscaping and analytics.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-* This is a **community-curated** list — not exhaustive and not an endorsement.
-* Patent search results should not be treated as definitive legal opinions or complete freedom-to-operate analyses.
-* Prior-art searches can produce false negatives because patent terminology, translations, classifications, indexing quality, unpublished applications, and jurisdictional coverage vary.
-* Patent databases differ in update frequency, full-text availability, legal-status coverage, and family normalization.
-* Commercial patent databases may provide proprietary indexing, enhanced metadata, and curated content that are not directly reproducible using public datasets alone.
-* Self-hosted open-source solutions require significant work in data acquisition, normalization, deduplication, patent-family resolution, indexing, NLP, ranking, and ongoing database updates.
-* Legal decisions involving patentability, infringement, validity, freedom to operate, or intellectual-property strategy should involve qualified patent professionals.
+</div>
 
 ---
 
-**Made for patent professionals, IP attorneys, inventors, researchers, R&D teams, innovation leaders, data scientists, and developers building patent intelligence systems.**
-Let's make patent research more open, searchable, transparent, and accessible through open data and open-source technology.
+## 📌 Table of Contents
+
+* [🔍 Overview & Ecosystem Architecture](#-overview--ecosystem-architecture)
+* [💼 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+* [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+* [🛠️ Architectural Building Blocks for Custom Patent Search](#-architectural-building-blocks-for-custom-patent-search)
+* [📈 Star History](#-star-history)
+* [🤝 How to Contribute](#-how-to-contribute)
+* [⚖️ Disclaimer](#-disclaimer)
+
+---
+
+## 🔍 Overview & Ecosystem Architecture
+
+This repository tracks notable **SaaS platforms**, enterprise patent intelligence suites, public search repositories, and **open-source systems** for **Patent Search & Intellectual Property Analytics**. These technologies enable patent attorneys, patent examiners, IP analysts, corporate R&D teams, academic researchers, and machine learning engineers to:
+
+- 🔬 **Prior-Art Discovery**: Uncover patent literature, non-patent literature (NPL), and defensive publications before filing.
+- 🗺️ **Patent Landscaping**: Map technology white spaces, track competitor filing velocity, and evaluate technology domain concentration.
+- 🌳 **Citation & Family Analysis**: Explore backward/forward citations, priority trees, and international patent family extensions (INPADOC).
+- 🧠 **AI & Semantic Search**: Index unstructured claims, abstracts, and detailed descriptions with vector embeddings, BM25, and hybrid cross-encoders.
+- 📊 **Freedom to Operate (FTO) & Validity**: Screen patent claims against infringement risks and assess patent validity.
+
+---
+
+## 💼 SaaS & Commercial Hosted Platforms
+
+> 📊 **Market Size & Structure**: The global Patent Search, Intellectual Property (IP) Management, and Patent Analytics Software Market is valued at approximately **$2.1 Billion – $3.4 Billion (2025–2026)**, projected to reach **$6.8+ Billion by 2033** at a **~13.2% CAGR**. The sector exhibits **moderate fragmentation** — anchored by enterprise conglomerates (Clarivate, LexisNexis/RELX, Questel) alongside high-velocity AI-native challengers (PatSnap, IPRally) and publicly funded open-access data infrastructures (Google Patents, Lens.org, EPO Espacenet, USPTO Patent Center, WIPO PATENTSCOPE).
+
+*Platforms are sorted below by **Company Size / Valuation / Operating Budget** in descending order:*
+
+| 🏢 Platform | 📝 Description | 💰 Pricing | 🎁 Free Tier / Trial Limits | 📈 Company Size / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Patents](https://patents.google.com/)** | Widely used public patent search platform offering full-text patent search, patent-family information, citations, classifications, inventor and assignee discovery, and machine-readable patent data access. | Free ($0) | Free forever; unrestricted global patent search and document downloads (subject to standard automated request limits) | **~$2.1T+** Market Cap / ~$350B+ Revenue (Alphabet Inc.) |
+| **[Google Patents Public Datasets](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/public_patents)** | Large-scale patent datasets available through BigQuery for SQL-based patent analysis, patent landscaping, claim analysis, and custom research workflows. | Starts at $6.25 per TB (BigQuery on-demand analysis beyond monthly free allowance) | Free forever for first 1 TB/month of query data processing under Google Cloud Free Tier | **~$2.1T+** Market Cap / ~$350B+ Revenue (Alphabet Inc.) |
+| **[PatentSight](https://www.patentsight.com/)** | Patent analytics and portfolio intelligence platform emphasizing Patent Asset Index, patent value, competitive benchmarking, technology landscapes, and strategic portfolio analysis. | Starts at ~$10,000 – $20,000/year for corporate patent analytics licenses (LexisNexis IP suite) | Free guided portfolio pilot demo upon request; free PatentAdvisor browser extension for basic examiner statistics; no permanent free SaaS plan | **~$85B+** Market Cap / ~$11.5B+ Revenue (RELX Group / LexisNexis) |
+| **[USPTO Patent Center](https://patentcenter.uspto.gov/)** | Official United States patent information system for accessing patent applications, prosecution information, assignment data, and related public patent records. | Free ($0) | Free forever; unrestricted public access to US patent applications, patent grants, and public prosecution history (file wrapper) documents | **~$4.2B** Annual Federal Operating Budget (USPTO) |
+| **[Derwent Innovation](https://clarivate.com/derwent/)** | Enterprise patent intelligence platform from Clarivate combining global patent content, enhanced Derwent World Patents Index (DWPI) indexing, citation analysis, and IP analytics. | Starts at ~$15,000/year for entry enterprise licenses (scales with DWPI indexing and analytics modules) | Free trial / pilot demo available upon request (typically 7–14 days evaluation); no permanent free tier | **~$4.5B** Market Cap / ~$2.6B Revenue (Clarivate NYSE: CLVT) |
+| **[Espacenet](https://worldwide.espacenet.com/)** | European Patent Office patent search service providing access to extensive worldwide patent documentation, bibliographic data, legal information, and INPADOC patent families. | Free (€0) | Free forever; unlimited global search across 140M+ patent documents (up to 500 results per export download; OPS API has 4 GB/week free limit) | **~€2.5B** (~$2.7B) Annual Operating Budget (EPO) |
+| **[Questel Orbit Intelligence](https://www.questel.com/)** | Enterprise patent search and IP intelligence platform offering global patent databases, sophisticated search, patent family analysis, competitive monitoring, and patent analytics. | Starts at ~$3,000 – $5,000/user/year (entry commercial single-seat quote) | 15-day free trial upon request and registration; no permanent free tier | **~$1.5B – $2.0B** Valuation / ~$250M+ Revenue (Eurazeo / IK Partners) |
+| **[PatSnap](https://www.patsnap.com/)** | Global patent intelligence and innovation platform providing patent search, technology landscaping, competitive intelligence, analytics, and AI-assisted research workflows. | Starts at ~$100/month (Eureka Engineering Pro / Open Platform Pro); Patent Searching Pro at ~$400/month | Free basic tier (Eureka Basic & Open Platform Starter with 10,000 API credits, ~10 searches/month); 7-day free trial on select modules | **~$1.0B+** Valuation (Unicorn; SoftBank & Tencent backed) / ~$100M+ ARR |
+| **[STN](https://www.cas.org/solutions/stn)** | Professional scientific and patent information platform supporting complex searches across patents, scientific literature, chemistry, CAS REGISTRY, and technical information. | Connect time starting at ~$100 – $300/connect hour plus file search/display fees ($2–$10+ per record) | Free assisted demo via CAS; free command syntax checks (`EXPAND`) and sample training database files; no permanent free tier | **~$650M+** Annual Revenue (CAS / American Chemical Society) |
+| **[WIPO PATENTSCOPE](https://patentscope.wipo.int/)** | Global patent information platform from WIPO supporting searches across PCT applications and participating national and regional patent collections. | Free ($0) | Free forever; unlimited search across 115M+ patent records, up to 10,000 records exportable per search | **~CHF 450M** (~$500M) Operating Budget (WIPO / UN) |
+| **[IFI CLAIMS Patent Services](https://www.ificlaims.com/)** | Patent data and intellectual-property intelligence provider offering structured patent information, CLAIMS Direct API, patent search, analytics, and enterprise data products. | Starts at ~$10,000/year for direct API subscriptions; BigQuery access at standard $6.25/TB | Free trial access provided for API testing upon request; free public bibliographic dataset table on Google BigQuery (up to 1 TB/month free queries) | **~$2.0B+** Parent Revenue (Digital Science / Holtzbrinck) / ~$15M Unit |
+| **[PatBase](https://www.patbase.com/)** | Global patent database and search platform providing professional patent searching, family information, monitoring, alerts, and patent analytics. | Starts at ~$4,000 – $6,000/user/year (approx. £3,000–£4,500/year for single seat) | 14-day free trial for PatBase (7-day free trial for PatBase Express); no permanent free tier | **~$30M – $50M** Revenue (Minesoft / Metric Capital Partners) |
+| **[IP.com](https://www.ip.com/)** | Intellectual-property intelligence platform offering prior-art search, patent search, technical disclosure management, innovation intelligence, and IP research services. | Starts at $49/user/month (InnovationQ Plus Basic); Prior Art Database defensive publishing from $195/disclosure | 2-day free trial for search platform; free public searching of the IP.com Prior Art Database | **~$15M – $30M** Annual Revenue |
+| **[InnovationQ Plus](https://www.ip.com/innovationq-plus/)** | AI-assisted patent and prior-art search platform powered by ConceptQuery designed to help researchers discover relevant technical documents and intellectual-property information. | Starts at $49/user/month (Basic plan) or $199/user/month (Premium plan / Day Pass) | 2-day free trial with platform feature access upon registration; no permanent free tier | **~$15M – $30M** Annual Revenue (IP.com platform) |
+| **[Gridlogics PatSeer](https://patseer.com/)** | Patent research and analytics platform focused on prior-art search, patent landscaping, competitive intelligence, portfolio analysis, and technology monitoring. | Starts at ~$900/user/quarter (~$300/user/month or ~$3,600/year for Explorer/Premier base tier) | 14-day free trial (no credit card required); no permanent free tier | **~$10M – $15M** Annual Revenue (Gridlogics) |
+| **[PatSeer Pro](https://patseer.com/)** | Advanced patent intelligence environment supporting complex patent queries, analytics, technology landscapes, portfolio evaluation, and competitive monitoring. | Starts at ~$1,200/user/quarter (~$400/user/month for ProX edition with advanced analytics) | 14-day free trial (no credit card required); no permanent free tier | **~$10M – $15M** Annual Revenue (Gridlogics) |
+| **[The Lens](https://www.lens.org/)** | Patent and scholarly knowledge platform supporting structured patent search, classification search, filtering, collections, alerts, visualizations, and links between patents and scholarly literature. | Free for non-commercial/academic use; Commercial licenses start at $1,000/year (~$83.33/month) | Free forever for non-commercial and individual research (unlimited searching, up to 10,000 items in saved collections, alerts); 14-day free trial for patent API | **~$5M – $10M** Annual Budget (Cambia Non-Profit Initiative) |
+| **[IPRally](https://www.iprally.com/)** | AI-powered patent intelligence platform focused on prior-art discovery and technology intelligence using graph neural networks and semantic machine learning. | Starts at €3,000/year (~€250/month) for individual plan; team plans scale to $24,000+/year | 3-day free trial with AI graph search capabilities; no permanent free tier | **~$30M – $50M** Valuation (Series A / ~$15M raised) / ~$5M ARR |
+| **[Patent Field](https://patentfield.com/)** | Japanese & global patent search and analysis service focused on AI semantic search, visual landscape clustering, and technology intelligence. | Starts at ¥10,000/month (~$70/month; ¥100,000/year on annual plan) | Free forever tier limited to 20 searches per month with basic AI search and classification features | **~$5M – $10M** Valuation / ~$2M–$5M ARR |
+| **[FreePatentsOnline](https://www.freepatentsonline.com/)** | Public patent search service providing searchable patent documents and patent-related information across major patent jurisdictions. | Free ($0 for web search engine); optional SearchAlerts/bulk services start at ~$15/month | Free forever with unlimited patent search, full-text viewing, and single PDF downloads across US, EP, JP, and PCT documents | **~$1M – $5M** Annual Revenue (SumoBrain Solutions) |
+| **[Ambercite](https://www.ambercite.com/)** | Patent citation-search and prior-art discovery platform focused on citation networks, related-document discovery, and identifying relevant patent literature. | Starts at ~$1,500 – $2,500/year for small firm / consultant licenses | 21-day or 20-search free trial (limited to top 25 results with 5 obscured, max 3 input patents, no Excel exports); no permanent free tier | **~$1M – $5M** Annual Revenue |
+| **[PatentInspiration](https://www.patentinspiration.com/)** | Patent search and innovation intelligence platform focused on visual patent exploration, semantic discovery, technology landscapes, and competitive intelligence. | Starts at €99/month (Basic plan; Team at €199/month, Enterprise at €499/month) | Free forever tier (basic searches and visualization, watermarked images, limited report saving); 7-day full-featured free trial | **~$1M – $3M** Annual Revenue (AULIVE) |
+| **[PatentBuddy](https://www.patentbuddy.com/)** | Patent search and patent portfolio intelligence service providing access to patent information, prosecution data, and patent-related analytics. | Starts at $29.95/month for Pro/Premium analytics tier (basic portal is free) | Free forever tier for standard US patent application searches, inventor profiles, and assignee summaries | **<$2M** Annual Revenue |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Open-source repositories and infrastructure for building custom patent search engines, patent data ETL pipelines, semantic vector search, claim analysis, and citation knowledge graphs.*
+
+*All repositories are sorted below by **GitHub Star Count** in descending order:*
+
+1. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)
+   State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX. Core framework for fine-tuning transformer models (e.g. PatentBERT, SciBERT) for patent classification, claim summarization, entity extraction, and prior-art retrieval.
+
+2. **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
+   Framework for developing applications powered by language models, autonomous agents, and RAG pipelines connected to patent databases, USPTO APIs, and claim analysis tools.
+
+3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)
+   Open-source RAG engine based on deep document understanding for complex multi-page patent PDFs, engineering drawings, tables, and claim tree hierarchies.
+
+4. **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
+   Distributed search and analytics engine widely used for large-scale structured patent metadata, BM25 text indexing, IPC/CPC classification filtering, and prior-art queries.
+
+5. **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+   Enterprise data exploration and visualization platform to build interactive patent filing trend dashboards, technology landscape heatmaps, and corporate portfolio charts.
+
+6. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)
+   Lightning-fast, typo-tolerant open-source search engine tailored for instant, responsive web interfaces searching patent titles, abstracts, inventors, and assignees.
+
+7. **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+   Data framework for LLM applications. Provides specialized document loaders and indexing structures for hierarchical patent claim trees, description cross-referencing, and conversational patent research.
+
+8. **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+   User-friendly open-source business intelligence tool to query and visualize patent databases, filing trends by jurisdiction, and assignee portfolio statistics.
+
+9. **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)
+   Cloud-native, open-source vector database built for massive-scale embedding indexing, enabling billion-scale similarity search across global patent descriptions and claims.
+
+10. **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)
+    Open-source similarity search library for dense vector embeddings, providing high-performance GPU and CPU nearest-neighbor search for patent prior-art discovery.
+
+11. **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)
+    Vector similarity search engine and vector database written in Rust with rich payload filtering, ideal for semantic patent search combined with strict IPC classification and date range filters.
+
+12. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
+    Industrial-strength NLP in Python for patent named entity recognition (NER), technical terminology extraction, dependency parsing, and claim structure breakdown.
+
+13. **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)
+    AI-native open-source embedding database for rapid prototyping of semantic patent search tools, local RAG assistants, and prior-art discovery applications.
+
+14. **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)
+    Fast, typo-tolerant in-memory search engine providing out-of-the-box instant search experiences for patent catalogs, assignee lookups, and classification browsing.
+
+15. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
+    Modular end-to-end framework for building custom patent search pipelines, combining BM25 sparse retrieval, dense neural vector search, cross-encoder rerankers, and LLM QA.
+
+16. **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![GitHub stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)
+    Framework for generating high-quality dense embeddings for patent abstracts, claims, and technical concepts for semantic similarity and prior-art search.
+
+17. **[NetworkX](https://github.com/networkx/networkx)** [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
+    Python package for analyzing complex networks, useful for patent backward/forward citation graphs, inventor collaboration networks, and assignee ownership mapping.
+
+18. **[Neo4j Community Edition](https://github.com/neo4j/neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
+    Graph database platform for constructing interconnected patent knowledge graphs linking patent families, citations, classifications, assignees, and technology clusters.
+
+19. **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)
+    Open-source vector database featuring native hybrid search (BM25 + dense vectors) and multi-modal search across patent text and technical schematic diagrams.
+
+20. **[Jupyter Notebook / JupyterLab](https://github.com/jupyter/jupyter)** [![GitHub stars](https://img.shields.io/github/stars/jupyter/jupyter?style=social&color=white)](https://github.com/jupyter/jupyter/stargazers)
+    Interactive computational environment widely used by patent data scientists for reproducible patent landscaping, data wrangling, and exploratory bibliometric research.
+
+21. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+    100% open-source distributed search engine with built-in k-NN vector search and neural search plugins, perfect for self-hosted enterprise patent repositories.
+
+22. **[txtai](https://github.com/neuml/txtai)** [![GitHub stars](https://img.shields.io/github/stars/neuml/txtai?style=social&color=white)](https://github.com/neuml/txtai/stargazers)
+    All-in-one open-source embeddings database for semantic search, LLM orchestration, and graph-assisted patent intelligence workflows.
+
+23. **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)
+    Topic modeling technique leveraging transformer embeddings and c-TF-IDF to automatically discover, cluster, and track emerging technology trends across patent corpuses.
+
+24. **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
+    Open-source big-data serving engine for real-time ranking, vector search, multi-phase retrieval, and complex query execution over vast patent collections.
+
+25. **[Gephi](https://github.com/gephi/gephi)** [![GitHub stars](https://img.shields.io/github/stars/gephi/gephi?style=social&color=white)](https://github.com/gephi/gephi/stargazers)
+    Open-source visualization software for exploring large-scale patent citation networks, technology diffusion maps, and inventor collaboration structures.
+
+26. **[GROBID](https://github.com/kermitt2/grobid)** [![GitHub stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers)
+    Machine learning library for extracting, parsing, and restructuring patent citations and scientific PDF documents into structured XML representations.
+
+27. **[Apache Lucene](https://github.com/apache/lucene)** [![GitHub stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers)
+    High-performance, full-featured search library powering global patent databases with advanced Boolean logic, proximity operators, and field-specific indexing.
+
+28. **[Pyserini](https://github.com/castorini/pyserini)** [![GitHub stars](https://img.shields.io/github/stars/castorini/pyserini?style=social&color=white)](https://github.com/castorini/pyserini/stargazers)
+    Python toolkit for reproducible information retrieval, providing sparse BM25 and dense bi-encoder indexing across benchmark patent test collections (e.g., CLEF-IP).
+
+29. **[Apache Solr](https://github.com/apache/solr)** [![GitHub stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)
+    Enterprise search platform built on Apache Lucene, widely deployed for faceted searching, filtering, highlighting, and geospatial queries across global patent portfolios.
+
+30. **[Google Patents Public Data](https://github.com/google/patents-public-data)** [![GitHub stars](https://img.shields.io/github/stars/google/patents-public-data?style=social&color=white)](https://github.com/google/patents-public-data/stargazers)
+    Open-source analysis workflows, automated patent landscaping, claim extraction, and machine-learning-based claim breadth analysis scripts using BigQuery patent tables.
+
+31. **[python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/python-epo-ops-client?style=social&color=white)](https://github.com/ip-tools/python-epo-ops-client/stargazers)
+    Apache-licensed Python client library for accessing the European Patent Office Open Patent Services (EPO OPS) API with automatic quota management and caching.
+
+32. **[PQAI (Patent Quality AI)](https://github.com/pqaidevteam/pqai)** [![GitHub stars](https://img.shields.io/github/stars/pqaidevteam/pqai?style=social&color=white)](https://github.com/pqaidevteam/pqai/stargazers)
+    Open-source AI-assisted patent prior-art and semantic similarity search engine ecosystem designed to improve patent examination and discovery.
+
+33. **[PatZilla](https://github.com/ip-tools/patzilla)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/patzilla?style=social&color=white)](https://github.com/ip-tools/patzilla/stargazers)
+    Modular open-source patent research platform and data integration toolkit with a modern web UI, command-line tooling, and connectors to EPO OPS and public sources.
+
+34. **[Awesome Patent Retrieval](https://github.com/mahesh-maan/awesome-patent-retrieval)** [![GitHub stars](https://img.shields.io/github/stars/mahesh-maan/awesome-patent-retrieval?style=social&color=white)](https://github.com/mahesh-maan/awesome-patent-retrieval/stargazers)
+    Curated list of patent retrieval research papers, search engine benchmarks, open datasets, and evaluation metrics for patent discovery.
+
+35. **[OPS Patent Search MCP](https://github.com/navisbio/OPS-patent-search-mcp)** [![GitHub stars](https://img.shields.io/github/stars/navisbio/OPS-patent-search-mcp?style=social&color=white)](https://github.com/navisbio/OPS-patent-search-mcp/stargazers)
+    Model Context Protocol (MCP) server for querying EPO Open Patent Services directly from AI coding assistants and LLM agent frameworks.
+
+36. **[Lens API Documentation & Examples](https://github.com/lens-org/lens-api-doc)** [![GitHub stars](https://img.shields.io/github/stars/lens-org/lens-api-doc?style=social&color=white)](https://github.com/lens-org/lens-api-doc/stargazers)
+    Official open-source API documentation, notebooks, and code samples in Python, R, Java, and Node.js for searching patent and scholarly data from The Lens.
+
+37. **[WIPO Analytics Manual](https://github.com/wipo-analytics/manual)** [![GitHub stars](https://img.shields.io/github/stars/wipo-analytics/manual?style=social&color=white)](https://github.com/wipo-analytics/manual/stargazers)
+    Open educational repository by the World Intellectual Property Organization (WIPO) demonstrating reproducible patent analytics workflows, indicators, and cleaning routines.
+
+38. **[EPO OPS Go Client](https://github.com/patent-dev/epo-ops)** [![GitHub stars](https://img.shields.io/github/stars/patent-dev/epo-ops?style=social&color=white)](https://github.com/patent-dev/epo-ops/stargazers)
+    High-performance Go client library for the European Patent Office OPS API supporting bibliographic data, claims, legal status, and CQL queries.
+
+39. **[Node.js EPO OPS Client](https://github.com/sujith3g/epo-ops)** [![GitHub stars](https://img.shields.io/github/stars/sujith3g/epo-ops?style=social&color=white)](https://github.com/sujith3g/epo-ops/stargazers)
+    JavaScript/Node.js wrapper for searching and retrieving patent bibliographic publications and patent families from the EPO Open Patent Services API.
+
+40. **[Google Patent CLI](https://github.com/sonesuke/google-patent-cli)** [![GitHub stars](https://img.shields.io/github/stars/sonesuke/google-patent-cli?style=social&color=white)](https://github.com/sonesuke/google-patent-cli/stargazers)
+    Command-line and AI-agent tool to query and retrieve structured patent data (abstracts, claims, descriptions, assignees) directly from Google Patents.
+
+41. **[PatentsView to BigQuery](https://github.com/Innovation-Information-Initiative/bigquery_patentsview)** [![GitHub stars](https://img.shields.io/github/stars/Innovation-Information-Initiative/bigquery_patentsview?style=social&color=white)](https://github.com/Innovation-Information-Initiative/bigquery_patentsview/stargazers)
+    Open-source data engineering pipeline to ingest USPTO PatentsView TSV data, convert to Parquet, and load structured tables into Google BigQuery for high-speed SQL analytics.
+
+42. **[PatentsView API](https://github.com/USPTO/PatentsView-API)** [![GitHub stars](https://img.shields.io/github/stars/USPTO/PatentsView-API?style=social&color=white)](https://github.com/USPTO/PatentsView-API/stargazers)
+    USPTO open-data platform repository providing structured access to patent metadata, disambiguated inventor entities, and assignee profiles.
+
+---
+
+## 🛠️ Architectural Building Blocks for Custom Patent Search
+
+To construct a production-ready, self-hosted patent intelligence and prior-art search system, combine the following layers:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│               User Interface & Analytics Layer               │
+│      (React / Next.js / Streamlit / Apache Superset / Metabase)│
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼──────────────────────────────┐
+│                  AI & Orchestration Engine                  │
+│       (LangChain / LlamaIndex / Haystack / RAGFlow / txtai) │
+└──────────────┬───────────────────────────────┬──────────────┘
+               │                               │
+┌──────────────▼──────────────┐ ┌──────────────▼──────────────┐
+│  Keyword & Metadata Search  │ │  Semantic Vector Search     │
+│ (OpenSearch / Elasticsearch/│ │(Qdrant / Milvus / FAISS /   │
+│  Typesense / Apache Solr)   │ │ Weaviate / Chroma)          │
+└──────────────┬──────────────┘ └──────────────┬──────────────┘
+               │                               │
+┌──────────────▼───────────────────────────────▼──────────────┐
+│               Data Acquisition & Ingestion Pipeline          │
+│   (EPO OPS Clients / USPTO PatentsView / BigQuery Datasets) │
+└─────────────────────────────────────────────────────────────┘
+```
+
+1. 📥 **Data Acquisition & Ingestion**:
+   - **Programmatic APIs**: Use `python-epo-ops-client`, `epo-ops` Go client, or `PatZilla` connectors for EPO records.
+   - **Bulk Open Data**: Ingest USPTO PatentsView datasets and Google Patents Public Datasets on BigQuery.
+2. 🔎 **Hybrid Search Layer**:
+   - **Lexical/Sparse**: Deploy OpenSearch, Elasticsearch, or Typesense for exact keyword, CPC classification, and Boolean queries.
+   - **Dense/Vector**: Deploy Qdrant, Milvus, Weaviate, or FAISS with Sentence Transformers (or domain-adapted PatentBERT) for semantic prior-art discovery.
+3. 🕸️ **Knowledge Graph & Citations**:
+   - Utilize Neo4j or NetworkX to construct patent citation networks, assignee parent-subsidiary mappings, and inventor graphs.
+4. 📊 **Landscaping & Dashboards**:
+   - Deploy Apache Superset, Metabase, or Jupyter notebooks with BERTopic to visualize technology whitespace clusters and filing velocity.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Patent-Search-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Patent-Search-Platform&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these guidelines:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a new branch**: `git checkout -b add-my-patent-tool`.
+3. 📝 **Add your entry** matching the existing format.
+4. 🔗 **Include**: Platform name, official URL, concise description, specific pricing, and free tier limits.
+5. 🚀 **Submit a Pull Request** with a brief summary of the addition.
+
+---
+
+## ⚖️ Disclaimer
+
+* This repository is **community-curated** for informational, research, and educational purposes only.
+* Patent search results, automated similarity matches, and AI-generated claim comparisons **do not constitute legal advice** and should not replace professional Freedom to Operate (FTO), patentability, or invalidity analyses by registered patent attorneys or patent agents.
+* Database coverage, update frequencies, full-text OCR accuracy, and legal status changes vary across patent offices and commercial vendors.
+
+---
+
+<div align="center">
+  <b>Made with ❤️ for patent attorneys, IP analysts, researchers, R&D innovators, and open-source developers.</b><br>
+  <sub>Let's make patent research more open, transparent, and intelligent through open technology.</sub>
+</div>
