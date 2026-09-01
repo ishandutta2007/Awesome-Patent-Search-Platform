@@ -88,130 +88,130 @@ This repository tracks notable **SaaS platforms**, enterprise patent intelligenc
 
 *All repositories are sorted below by **GitHub Star Count** in descending order:*
 
-1. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)
+1. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)
    State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX. Core framework for fine-tuning transformer models (e.g. PatentBERT, SciBERT) for patent classification, claim summarization, entity extraction, and prior-art retrieval.
 
-2. **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
+2. **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
    Framework for developing applications powered by language models, autonomous agents, and RAG pipelines connected to patent databases, USPTO APIs, and claim analysis tools.
 
-3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)
+3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)
    Open-source RAG engine based on deep document understanding for complex multi-page patent PDFs, engineering drawings, tables, and claim tree hierarchies.
 
-4. **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
+4. **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
    Distributed search and analytics engine widely used for large-scale structured patent metadata, BM25 text indexing, IPC/CPC classification filtering, and prior-art queries.
 
-5. **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+5. **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
    Enterprise data exploration and visualization platform to build interactive patent filing trend dashboards, technology landscape heatmaps, and corporate portfolio charts.
 
-6. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)
+6. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub_Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)
    Lightning-fast, typo-tolerant open-source search engine tailored for instant, responsive web interfaces searching patent titles, abstracts, inventors, and assignees.
 
-7. **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+7. **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
    Data framework for LLM applications. Provides specialized document loaders and indexing structures for hierarchical patent claim trees, description cross-referencing, and conversational patent research.
 
-8. **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+8. **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
    User-friendly open-source business intelligence tool to query and visualize patent databases, filing trends by jurisdiction, and assignee portfolio statistics.
 
-9. **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)
+9. **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)
    Cloud-native, open-source vector database built for massive-scale embedding indexing, enabling billion-scale similarity search across global patent descriptions and claims.
 
-10. **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)
+10. **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)
     Open-source similarity search library for dense vector embeddings, providing high-performance GPU and CPU nearest-neighbor search for patent prior-art discovery.
 
-11. **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)
+11. **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)
     Vector similarity search engine and vector database written in Rust with rich payload filtering, ideal for semantic patent search combined with strict IPC classification and date range filters.
 
-12. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
+12. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub_Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
     Industrial-strength NLP in Python for patent named entity recognition (NER), technical terminology extraction, dependency parsing, and claim structure breakdown.
 
-13. **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)
+13. **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)
     AI-native open-source embedding database for rapid prototyping of semantic patent search tools, local RAG assistants, and prior-art discovery applications.
 
-14. **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)
+14. **[Typesense](https://github.com/typesense/typesense)** [![GitHub_Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)
     Fast, typo-tolerant in-memory search engine providing out-of-the-box instant search experiences for patent catalogs, assignee lookups, and classification browsing.
 
-15. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
+15. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
     Modular end-to-end framework for building custom patent search pipelines, combining BM25 sparse retrieval, dense neural vector search, cross-encoder rerankers, and LLM QA.
 
-16. **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![GitHub stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)
+16. **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)
     Framework for generating high-quality dense embeddings for patent abstracts, claims, and technical concepts for semantic similarity and prior-art search.
 
-17. **[NetworkX](https://github.com/networkx/networkx)** [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
+17. **[NetworkX](https://github.com/networkx/networkx)** [![GitHub_Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
     Python package for analyzing complex networks, useful for patent backward/forward citation graphs, inventor collaboration networks, and assignee ownership mapping.
 
-18. **[Neo4j Community Edition](https://github.com/neo4j/neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
+18. **[Neo4j Community Edition](https://github.com/neo4j/neo4j)** [![GitHub_Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
     Graph database platform for constructing interconnected patent knowledge graphs linking patent families, citations, classifications, assignees, and technology clusters.
 
-19. **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)
+19. **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)
     Open-source vector database featuring native hybrid search (BM25 + dense vectors) and multi-modal search across patent text and technical schematic diagrams.
 
-20. **[Jupyter Notebook / JupyterLab](https://github.com/jupyter/jupyter)** [![GitHub stars](https://img.shields.io/github/stars/jupyter/jupyter?style=social&color=white)](https://github.com/jupyter/jupyter/stargazers)
+20. **[Jupyter Notebook / JupyterLab](https://github.com/jupyter/jupyter)** [![GitHub_Stars](https://img.shields.io/github/stars/jupyter/jupyter?style=social&color=white)](https://github.com/jupyter/jupyter/stargazers)
     Interactive computational environment widely used by patent data scientists for reproducible patent landscaping, data wrangling, and exploratory bibliometric research.
 
-21. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+21. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
     100% open-source distributed search engine with built-in k-NN vector search and neural search plugins, perfect for self-hosted enterprise patent repositories.
 
-22. **[txtai](https://github.com/neuml/txtai)** [![GitHub stars](https://img.shields.io/github/stars/neuml/txtai?style=social&color=white)](https://github.com/neuml/txtai/stargazers)
+22. **[txtai](https://github.com/neuml/txtai)** [![GitHub_Stars](https://img.shields.io/github/stars/neuml/txtai?style=social&color=white)](https://github.com/neuml/txtai/stargazers)
     All-in-one open-source embeddings database for semantic search, LLM orchestration, and graph-assisted patent intelligence workflows.
 
-23. **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)
+23. **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub_Stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)
     Topic modeling technique leveraging transformer embeddings and c-TF-IDF to automatically discover, cluster, and track emerging technology trends across patent corpuses.
 
-24. **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
+24. **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub_Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
     Open-source big-data serving engine for real-time ranking, vector search, multi-phase retrieval, and complex query execution over vast patent collections.
 
-25. **[Gephi](https://github.com/gephi/gephi)** [![GitHub stars](https://img.shields.io/github/stars/gephi/gephi?style=social&color=white)](https://github.com/gephi/gephi/stargazers)
+25. **[Gephi](https://github.com/gephi/gephi)** [![GitHub_Stars](https://img.shields.io/github/stars/gephi/gephi?style=social&color=white)](https://github.com/gephi/gephi/stargazers)
     Open-source visualization software for exploring large-scale patent citation networks, technology diffusion maps, and inventor collaboration structures.
 
-26. **[GROBID](https://github.com/kermitt2/grobid)** [![GitHub stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers)
+26. **[GROBID](https://github.com/kermitt2/grobid)** [![GitHub_Stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers)
     Machine learning library for extracting, parsing, and restructuring patent citations and scientific PDF documents into structured XML representations.
 
-27. **[Apache Lucene](https://github.com/apache/lucene)** [![GitHub stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers)
+27. **[Apache Lucene](https://github.com/apache/lucene)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers)
     High-performance, full-featured search library powering global patent databases with advanced Boolean logic, proximity operators, and field-specific indexing.
 
-28. **[Pyserini](https://github.com/castorini/pyserini)** [![GitHub stars](https://img.shields.io/github/stars/castorini/pyserini?style=social&color=white)](https://github.com/castorini/pyserini/stargazers)
+28. **[Pyserini](https://github.com/castorini/pyserini)** [![GitHub_Stars](https://img.shields.io/github/stars/castorini/pyserini?style=social&color=white)](https://github.com/castorini/pyserini/stargazers)
     Python toolkit for reproducible information retrieval, providing sparse BM25 and dense bi-encoder indexing across benchmark patent test collections (e.g., CLEF-IP).
 
-29. **[Apache Solr](https://github.com/apache/solr)** [![GitHub stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)
+29. **[Apache Solr](https://github.com/apache/solr)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)
     Enterprise search platform built on Apache Lucene, widely deployed for faceted searching, filtering, highlighting, and geospatial queries across global patent portfolios.
 
-30. **[Google Patents Public Data](https://github.com/google/patents-public-data)** [![GitHub stars](https://img.shields.io/github/stars/google/patents-public-data?style=social&color=white)](https://github.com/google/patents-public-data/stargazers)
+30. **[Google Patents Public Data](https://github.com/google/patents-public-data)** [![GitHub_Stars](https://img.shields.io/github/stars/google/patents-public-data?style=social&color=white)](https://github.com/google/patents-public-data/stargazers)
     Open-source analysis workflows, automated patent landscaping, claim extraction, and machine-learning-based claim breadth analysis scripts using BigQuery patent tables.
 
-31. **[python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/python-epo-ops-client?style=social&color=white)](https://github.com/ip-tools/python-epo-ops-client/stargazers)
+31. **[python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)** [![GitHub_Stars](https://img.shields.io/github/stars/ip-tools/python-epo-ops-client?style=social&color=white)](https://github.com/ip-tools/python-epo-ops-client/stargazers)
     Apache-licensed Python client library for accessing the European Patent Office Open Patent Services (EPO OPS) API with automatic quota management and caching.
 
-32. **[PQAI (Patent Quality AI)](https://github.com/pqaidevteam/pqai)** [![GitHub stars](https://img.shields.io/github/stars/pqaidevteam/pqai?style=social&color=white)](https://github.com/pqaidevteam/pqai/stargazers)
+32. **[PQAI (Patent Quality AI)](https://github.com/pqaidevteam/pqai)** [![GitHub_Stars](https://img.shields.io/github/stars/pqaidevteam/pqai?style=social&color=white)](https://github.com/pqaidevteam/pqai/stargazers)
     Open-source AI-assisted patent prior-art and semantic similarity search engine ecosystem designed to improve patent examination and discovery.
 
-33. **[PatZilla](https://github.com/ip-tools/patzilla)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/patzilla?style=social&color=white)](https://github.com/ip-tools/patzilla/stargazers)
+33. **[PatZilla](https://github.com/ip-tools/patzilla)** [![GitHub_Stars](https://img.shields.io/github/stars/ip-tools/patzilla?style=social&color=white)](https://github.com/ip-tools/patzilla/stargazers)
     Modular open-source patent research platform and data integration toolkit with a modern web UI, command-line tooling, and connectors to EPO OPS and public sources.
 
-34. **[Awesome Patent Retrieval](https://github.com/mahesh-maan/awesome-patent-retrieval)** [![GitHub stars](https://img.shields.io/github/stars/mahesh-maan/awesome-patent-retrieval?style=social&color=white)](https://github.com/mahesh-maan/awesome-patent-retrieval/stargazers)
+34. **[Awesome Patent Retrieval](https://github.com/mahesh-maan/awesome-patent-retrieval)** [![GitHub_Stars](https://img.shields.io/github/stars/mahesh-maan/awesome-patent-retrieval?style=social&color=white)](https://github.com/mahesh-maan/awesome-patent-retrieval/stargazers)
     Curated list of patent retrieval research papers, search engine benchmarks, open datasets, and evaluation metrics for patent discovery.
 
-35. **[OPS Patent Search MCP](https://github.com/navisbio/OPS-patent-search-mcp)** [![GitHub stars](https://img.shields.io/github/stars/navisbio/OPS-patent-search-mcp?style=social&color=white)](https://github.com/navisbio/OPS-patent-search-mcp/stargazers)
+35. **[OPS Patent Search MCP](https://github.com/navisbio/OPS-patent-search-mcp)** [![GitHub_Stars](https://img.shields.io/github/stars/navisbio/OPS-patent-search-mcp?style=social&color=white)](https://github.com/navisbio/OPS-patent-search-mcp/stargazers)
     Model Context Protocol (MCP) server for querying EPO Open Patent Services directly from AI coding assistants and LLM agent frameworks.
 
-36. **[Lens API Documentation & Examples](https://github.com/lens-org/lens-api-doc)** [![GitHub stars](https://img.shields.io/github/stars/lens-org/lens-api-doc?style=social&color=white)](https://github.com/lens-org/lens-api-doc/stargazers)
+36. **[Lens API Documentation & Examples](https://github.com/lens-org/lens-api-doc)** [![GitHub_Stars](https://img.shields.io/github/stars/lens-org/lens-api-doc?style=social&color=white)](https://github.com/lens-org/lens-api-doc/stargazers)
     Official open-source API documentation, notebooks, and code samples in Python, R, Java, and Node.js for searching patent and scholarly data from The Lens.
 
-37. **[WIPO Analytics Manual](https://github.com/wipo-analytics/manual)** [![GitHub stars](https://img.shields.io/github/stars/wipo-analytics/manual?style=social&color=white)](https://github.com/wipo-analytics/manual/stargazers)
+37. **[WIPO Analytics Manual](https://github.com/wipo-analytics/manual)** [![GitHub_Stars](https://img.shields.io/github/stars/wipo-analytics/manual?style=social&color=white)](https://github.com/wipo-analytics/manual/stargazers)
     Open educational repository by the World Intellectual Property Organization (WIPO) demonstrating reproducible patent analytics workflows, indicators, and cleaning routines.
 
-38. **[EPO OPS Go Client](https://github.com/patent-dev/epo-ops)** [![GitHub stars](https://img.shields.io/github/stars/patent-dev/epo-ops?style=social&color=white)](https://github.com/patent-dev/epo-ops/stargazers)
+38. **[EPO OPS Go Client](https://github.com/patent-dev/epo-ops)** [![GitHub_Stars](https://img.shields.io/github/stars/patent-dev/epo-ops?style=social&color=white)](https://github.com/patent-dev/epo-ops/stargazers)
     High-performance Go client library for the European Patent Office OPS API supporting bibliographic data, claims, legal status, and CQL queries.
 
-39. **[Node.js EPO OPS Client](https://github.com/sujith3g/epo-ops)** [![GitHub stars](https://img.shields.io/github/stars/sujith3g/epo-ops?style=social&color=white)](https://github.com/sujith3g/epo-ops/stargazers)
+39. **[Node.js EPO OPS Client](https://github.com/sujith3g/epo-ops)** [![GitHub_Stars](https://img.shields.io/github/stars/sujith3g/epo-ops?style=social&color=white)](https://github.com/sujith3g/epo-ops/stargazers)
     JavaScript/Node.js wrapper for searching and retrieving patent bibliographic publications and patent families from the EPO Open Patent Services API.
 
-40. **[Google Patent CLI](https://github.com/sonesuke/google-patent-cli)** [![GitHub stars](https://img.shields.io/github/stars/sonesuke/google-patent-cli?style=social&color=white)](https://github.com/sonesuke/google-patent-cli/stargazers)
+40. **[Google Patent CLI](https://github.com/sonesuke/google-patent-cli)** [![GitHub_Stars](https://img.shields.io/github/stars/sonesuke/google-patent-cli?style=social&color=white)](https://github.com/sonesuke/google-patent-cli/stargazers)
     Command-line and AI-agent tool to query and retrieve structured patent data (abstracts, claims, descriptions, assignees) directly from Google Patents.
 
-41. **[PatentsView to BigQuery](https://github.com/Innovation-Information-Initiative/bigquery_patentsview)** [![GitHub stars](https://img.shields.io/github/stars/Innovation-Information-Initiative/bigquery_patentsview?style=social&color=white)](https://github.com/Innovation-Information-Initiative/bigquery_patentsview/stargazers)
+41. **[PatentsView to BigQuery](https://github.com/Innovation-Information-Initiative/bigquery_patentsview)** [![GitHub_Stars](https://img.shields.io/github/stars/Innovation-Information-Initiative/bigquery_patentsview?style=social&color=white)](https://github.com/Innovation-Information-Initiative/bigquery_patentsview/stargazers)
     Open-source data engineering pipeline to ingest USPTO PatentsView TSV data, convert to Parquet, and load structured tables into Google BigQuery for high-speed SQL analytics.
 
-42. **[PatentsView API](https://github.com/USPTO/PatentsView-API)** [![GitHub stars](https://img.shields.io/github/stars/USPTO/PatentsView-API?style=social&color=white)](https://github.com/USPTO/PatentsView-API/stargazers)
+42. **[PatentsView API](https://github.com/USPTO/PatentsView-API)** [![GitHub_Stars](https://img.shields.io/github/stars/USPTO/PatentsView-API?style=social&color=white)](https://github.com/USPTO/PatentsView-API/stargazers)
     USPTO open-data platform repository providing structured access to patent metadata, disambiguated inventor entities, and assignee profiles.
 
 ---
