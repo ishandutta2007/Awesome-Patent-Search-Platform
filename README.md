@@ -1,0 +1,2 @@
+# Awesome-Patent-Search-Platform
+
